@@ -11,8 +11,12 @@ NewRoomControlComponent = Ember.Component.extend
 
         hideForm: ->
             @set 'showForm', false
+            @set 'roomName', ''
 
         createRoom: ->
-            
+            name = @get 'roomName'
+            if name
+                @set 'roomName', ''
+                @sendAction 'action', name
 
 `export default NewRoomControlComponent`

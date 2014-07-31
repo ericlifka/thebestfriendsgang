@@ -38,8 +38,8 @@
           <file leaf-file-name="new-room-control.coffee" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/components/new-room-control.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.621547" vertical-offset="0" max-vertical-offset="362">
-                  <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+                <state vertical-scroll-proportion="0.5801105" vertical-offset="0" max-vertical-offset="405">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -122,8 +122,8 @@
           <file leaf-file-name="new-room-control.hbs" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/templates/components/new-room-control.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22590362" vertical-offset="0" max-vertical-offset="332">
-                  <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.045180723" vertical-offset="0" max-vertical-offset="332">
+                  <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
                   <folding />
                 </state>
               </provider>
@@ -624,12 +624,12 @@
       <created>1406768237026</created>
       <updated>1406768237026</updated>
       <workItem from="1406768239486" duration="848000" />
-      <workItem from="1406769193889" duration="3664000" />
+      <workItem from="1406769193889" duration="3802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4512000" />
+    <option name="totallyTimeSpent" value="4650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="382" y="22" width="1058" height="874" extended-state="6" />
@@ -809,14 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/user-control.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="435">
@@ -835,16 +827,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/new-room-control.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22590362" vertical-offset="0" max-vertical-offset="332">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.045180723" vertical-offset="0" max-vertical-offset="332">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/user-control.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/new-room-control.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.621547" vertical-offset="0" max-vertical-offset="362">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.5801105" vertical-offset="0" max-vertical-offset="405">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
