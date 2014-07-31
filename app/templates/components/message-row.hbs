@@ -1,4 +1,4 @@
-<li class="message-row list-group-item">
+<li {{bind-attr class=":message-row :list-group-item fromYou:you"}}>
     <div class="row">
         <div class="from col-sm-2">{{message.from}}</div>
         <div class="body col-sm-9">{{message.body}}</div>

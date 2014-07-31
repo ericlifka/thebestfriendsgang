@@ -1,6 +1,9 @@
 `import Ember from 'ember'`
 
 MessageRowComponent = Ember.Component.extend
+    fromYou: Ember.computed 'message.from', 'Thebestfriendsgange.user', ->
+        @get('message.from') is Thebestfriendsgang.get 'user'
+
     timestamp: Ember.computed 'message.at', ->
         moment(@get 'message.at').format @formatString()
 
