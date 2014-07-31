@@ -2,19 +2,20 @@
 
 RoomController = Ember.ObjectController.extend
     actions:
-        sendMessage: ->
+        sendMessage: (message) ->
             user = Thebestfriendsgang.get 'user'
             room = @get 'model'
-            message = @get 'newMessage'
             if not user
                 return alert 'Set a nickname to send messages'
 
-            if message
-                message = @store.createRecord 'message',
-                    from: user
-                    room: room
-                    at: new Date()
-                    body: message
-                message.save()
+            message = @store.createRecord 'message',
+                from: user
+                room: room
+                at: new Date()
+                body: message
+            message.save().then =>
+                room.get('messages').pushObject message
+                room.save()
+
 
 `export default RoomController`

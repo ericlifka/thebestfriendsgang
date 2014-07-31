@@ -4,12 +4,17 @@
     </div>
     <div class="panel-body">
         {{#each message in messages}}
-
+            {{message.body}}
         {{/each}}
     </div>
+    <ul class="list-group">
+        {{#each message in messages}}
+            <li class="list-group-item">
+                {{message.body}}
+            </li>
+        {{/each}}
+    </ul>
     <div class="message-input panel-footer">
-        <form {{action "sendMessage" on="submit"}}>
-            {{textarea class="form-control" value=newMessage}}
-        </form>
+        {{message-input action="sendMessage"}}
     </div>
 </div>
