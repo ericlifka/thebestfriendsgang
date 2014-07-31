@@ -7,11 +7,9 @@
                 </div>
                 <ul class="list-group">
                     {{#each room in controller}}
-                        <li class="list-group-item">
-                            {{#link-to "room" room}}
-                                {{room.name}}
-                            {{/link-to}}
-                        </li>
+                        {{#link-to "room" room class="list-group-item"}}
+                            {{room.name}}
+                        {{/link-to}}
                     {{/each}}
                 </ul>
                 <div class="panel-footer">
