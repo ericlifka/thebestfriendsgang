@@ -7,9 +7,4 @@ Message = DS.Model.extend
     at: DS.attr()
     body: DS.attr()
 
-    timestamp: Ember.computed 'at', ->
-        date = @get 'at'
-        if date
-            moment(date).format 'hh:mm'
-
 `export default Message`

@@ -4,13 +4,7 @@
     </div>
     <ul class="list-group">
         {{#each message in messages}}
-            <li class="list-group-item">
-                <div class="row">
-                    <div class="col-sm-1">{{message.from}}</div>
-                    <div class="col-sm-10">{{message.body}}</div>
-                    <div class="col-sm-1">{{message.timestamp}}</div>
-                </div>
-            </li>
+            {{message-row message=message}}
         {{/each}}
     </ul>
     <div class="message-input panel-footer">
