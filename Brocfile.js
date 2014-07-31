@@ -4,6 +4,9 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
 
+app.import('vendor/bootstrap/dist/js/bootstrap.js');
+app.import('vendor/bootstrap/dist/css/bootstrap.css');
+
 app.import('vendor/firebase/firebase-debug.js');
 app.import('vendor/emberfire/dist/emberfire.js');
 
