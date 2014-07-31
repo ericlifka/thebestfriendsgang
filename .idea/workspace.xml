@@ -35,10 +35,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.hbs" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.hbs" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.044378698" vertical-offset="0" max-vertical-offset="338">
+                <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="195">
                   <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
                   <folding />
                 </state>
@@ -65,11 +65,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="user-control.coffee" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="user-control.coffee" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/components/user-control.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-                  <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.5801105" vertical-offset="0" max-vertical-offset="362">
+                  <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -129,13 +129,13 @@
         <option value="$PROJECT_DIR$/.jshintrc" />
         <option value="$PROJECT_DIR$/app/styles/app.css" />
         <option value="$PROJECT_DIR$/app/templates/components/user-control.hbs" />
-        <option value="$PROJECT_DIR$/app/components/user-control.coffee" />
         <option value="$PROJECT_DIR$/app/routes/application.coffee" />
         <option value="$PROJECT_DIR$/app/models/room.coffee" />
         <option value="$PROJECT_DIR$/app/models/message.coffee" />
         <option value="$PROJECT_DIR$/app/styles/app.less" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/app/components/user-control.coffee" />
       </list>
     </option>
   </component>
@@ -602,12 +602,12 @@
       <created>1406768237026</created>
       <updated>1406768237026</updated>
       <workItem from="1406768239486" duration="848000" />
-      <workItem from="1406769193889" duration="3034000" />
+      <workItem from="1406769193889" duration="3088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3882000" />
+    <option name="totallyTimeSpent" value="3936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="382" y="22" width="1058" height="874" extended-state="6" />
@@ -755,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/user-control.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/application.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -805,8 +797,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044378698" vertical-offset="0" max-vertical-offset="338">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="195">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/user-control.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5801105" vertical-offset="0" max-vertical-offset="362">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>

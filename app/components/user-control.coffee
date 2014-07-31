@@ -12,5 +12,6 @@ UserControlComponent = Ember.Component.extend
 
         changeUser: ->
             @set 'user', null
+            @set 'nickname', ""
 
 `export default UserControlComponent`
