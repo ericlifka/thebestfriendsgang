@@ -1,8 +1,13 @@
-<div class="panel panel-default">
+<div class="room-pane panel panel-default">
     <div class="panel-heading">
         {{name}}
     </div>
     <div class="panel-body">
-        messages
+        {{#each message in messages}}
+
+        {{/each}}
+    </div>
+    <div class="message-input panel-footer">
+        {{textarea class="form-control" value=newMessage}}
     </div>
 </div>
