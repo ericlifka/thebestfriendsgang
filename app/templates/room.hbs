@@ -8,6 +8,8 @@
         {{/each}}
     </div>
     <div class="message-input panel-footer">
-        {{textarea class="form-control" value=newMessage}}
+        <form {{action "sendMessage" on="submit"}}>
+            {{textarea class="form-control" value=newMessage}}
+        </form>
     </div>
 </div>
