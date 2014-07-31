@@ -1,10 +1,6 @@
 {{#if user}}
-    <h4>
-        {{user}}
-        <small>
-            <button type="button" class="btn btn-link" {{action "changeUser"}}>change</button>
-        </small>
-    </h4>
+    <strong>{{user}}</strong>
+    <button type="button" class="btn btn-link" {{action "changeUser"}}>change</button>
 {{else}}
     <form class="form-inline" {{action "setUser" on="submit"}}>
         <div class="form-group">
